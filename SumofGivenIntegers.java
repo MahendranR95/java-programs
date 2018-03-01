@@ -14,6 +14,7 @@ public class SumofGivenIntegers {
 		{
 			sum=sum+a[i];
 		}
+		System.out.println("Output :");
 		System.out.println(sum);		
 	}
 }
