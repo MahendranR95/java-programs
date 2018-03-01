@@ -6,9 +6,8 @@ public class PowofValue {
 		int N=in.nextInt();
 		int K=in.nextInt();
 		int c=1;
-		while(K>0){
+		for(int i=k;i>0;i--){
 			c=c*N;
-			K--;
 		}		
 		System.out.println("Output :");
 		System.out.println(c);		
