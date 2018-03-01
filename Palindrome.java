@@ -15,9 +15,7 @@ public class Palindrome {
 				N=N/10;
 			}
 		}
-		if(c==T)
-			System.out.println("yes");
-		else
-		System.out.println("no");		
+		String b=(c==T)?"yes":"No";	
+		System.out.println(b);		
 	}
 }
