@@ -7,12 +7,14 @@ public class PrimeNo {
 		int c=0;
 		if(T<=1000)
 		{
-			for(int i=1;i<=T;i++)
+			int i=1;
+			while(i<=T)
 			{
 				if(T%i==0)
 				{
 					c++;
 				}
+				i++;
 			}
 		}
 		String b=(c==2)?"yes":"No";	
