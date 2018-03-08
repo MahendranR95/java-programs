@@ -9,14 +9,9 @@ public class isFactorialNo {
 	System.out.println("Input:");
 	int n=in.nextInt();
 	int count=0;
-	for(int i=1;i<=n;i++)
-	{
-	  count=isFact(i);
-  } 
-	System.out.println(count);
-	
+	count=isFact(n);
+ 	System.out.println(count);
 }
-
 private static int isFact(int n) {
 	// TODO Auto-generated method stub
 	int c=1;
