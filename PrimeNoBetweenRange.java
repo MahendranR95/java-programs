@@ -5,8 +5,8 @@ public class PrimeNoBetweenRange {
 		System.out.println("Input :");
 		int s=in.nextInt();
 		int e=in.nextInt();
-		
-		for(int j=s+1;j<e;j++)
+		int co=0;
+		for(int j=s;j<=e;j++)
 		{
 			int c=0;
 			int i=1;
@@ -19,7 +19,11 @@ public class PrimeNoBetweenRange {
 				i++;
 			}
 			if(c==2)
-				System.out.println(j);
+			{
+				co++;
+			}
+				
 		}
+		System.out.println(co);
 	}
 }
